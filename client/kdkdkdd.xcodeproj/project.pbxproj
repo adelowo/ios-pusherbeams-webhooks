@@ -3,127 +3,126 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82E1F0222302434400ED6473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1F0212302434400ED6473 /* AppDelegate.swift */; };
-		82E1F0242302434400ED6473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1F0232302434400ED6473 /* ViewController.swift */; };
-		82E1F0272302434400ED6473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E1F0252302434400ED6473 /* Main.storyboard */; };
-		82E1F0292302434500ED6473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E1F0282302434500ED6473 /* Assets.xcassets */; };
-		82E1F02C2302434500ED6473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E1F02A2302434500ED6473 /* LaunchScreen.storyboard */; };
-		C4399041588C9FBA94A835D0 /* Pods_webhookSlacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D757A38DD4918B893817C2 /* Pods_webhookSlacks.framework */; };
+		69E8D24680E715BC400CBB07 /* Pods_kdkdkdd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125B3A836521FA770748DEB0 /* Pods_kdkdkdd.framework */; };
+		825A0DC4230587690019769E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A0DC3230587690019769E /* AppDelegate.swift */; };
+		825A0DC6230587690019769E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A0DC5230587690019769E /* ViewController.swift */; };
+		825A0DC9230587690019769E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825A0DC7230587690019769E /* Main.storyboard */; };
+		825A0DCB2305876B0019769E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825A0DCA2305876B0019769E /* Assets.xcassets */; };
+		825A0DCE2305876B0019769E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825A0DCC2305876B0019769E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2133BE10A93E8D56499C2DDB /* Pods-webhookSlacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webhookSlacks.release.xcconfig"; path = "Target Support Files/Pods-webhookSlacks/Pods-webhookSlacks.release.xcconfig"; sourceTree = "<group>"; };
-		8060676BC4D21B70B6CEEC70 /* Pods-webhookSlacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webhookSlacks.debug.xcconfig"; path = "Target Support Files/Pods-webhookSlacks/Pods-webhookSlacks.debug.xcconfig"; sourceTree = "<group>"; };
-		82E1F01E2302434400ED6473 /* webhookSlacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webhookSlacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		82E1F0212302434400ED6473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82E1F0232302434400ED6473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82E1F0262302434400ED6473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		82E1F0282302434500ED6473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		82E1F02B2302434500ED6473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82E1F02D2302434500ED6473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82E1F0332302436F00ED6473 /* webhookSlacks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = webhookSlacks.entitlements; sourceTree = "<group>"; };
-		E3D757A38DD4918B893817C2 /* Pods_webhookSlacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webhookSlacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		125B3A836521FA770748DEB0 /* Pods_kdkdkdd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kdkdkdd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824A57D12305E0D7002C0440 /* kdkdkdd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kdkdkdd.entitlements; sourceTree = "<group>"; };
+		825A0DC0230587690019769E /* kdkdkdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kdkdkdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		825A0DC3230587690019769E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		825A0DC5230587690019769E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		825A0DC8230587690019769E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		825A0DCA2305876B0019769E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		825A0DCD2305876B0019769E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		825A0DCF2305876B0019769E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A130F9F274B2B5EB8EA555 /* Pods-kdkdkdd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kdkdkdd.release.xcconfig"; path = "Target Support Files/Pods-kdkdkdd/Pods-kdkdkdd.release.xcconfig"; sourceTree = "<group>"; };
+		A24AF6A98E63F5C7E97176BD /* Pods-kdkdkdd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kdkdkdd.debug.xcconfig"; path = "Target Support Files/Pods-kdkdkdd/Pods-kdkdkdd.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		82E1F01B2302434300ED6473 /* Frameworks */ = {
+		825A0DBD230587690019769E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4399041588C9FBA94A835D0 /* Pods_webhookSlacks.framework in Frameworks */,
+				69E8D24680E715BC400CBB07 /* Pods_kdkdkdd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5EC07E1D86116CDD5DDD3AFE /* Frameworks */ = {
+		3956FA8A7177AC3932123A6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E3D757A38DD4918B893817C2 /* Pods_webhookSlacks.framework */,
+				125B3A836521FA770748DEB0 /* Pods_kdkdkdd.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		779411547B0A67C19B39411C /* Pods */ = {
+		825A0DB7230587690019769E = {
 			isa = PBXGroup;
 			children = (
-				8060676BC4D21B70B6CEEC70 /* Pods-webhookSlacks.debug.xcconfig */,
-				2133BE10A93E8D56499C2DDB /* Pods-webhookSlacks.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		82E1F0152302434300ED6473 = {
-			isa = PBXGroup;
-			children = (
-				82E1F0202302434400ED6473 /* webhookSlacks */,
-				82E1F01F2302434400ED6473 /* Products */,
-				779411547B0A67C19B39411C /* Pods */,
-				5EC07E1D86116CDD5DDD3AFE /* Frameworks */,
+				825A0DC2230587690019769E /* kdkdkdd */,
+				825A0DC1230587690019769E /* Products */,
+				8D1C5A2DD90FD79BC7B0B5EA /* Pods */,
+				3956FA8A7177AC3932123A6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		82E1F01F2302434400ED6473 /* Products */ = {
+		825A0DC1230587690019769E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82E1F01E2302434400ED6473 /* webhookSlacks.app */,
+				825A0DC0230587690019769E /* kdkdkdd.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		82E1F0202302434400ED6473 /* webhookSlacks */ = {
+		825A0DC2230587690019769E /* kdkdkdd */ = {
 			isa = PBXGroup;
 			children = (
-				82E1F0332302436F00ED6473 /* webhookSlacks.entitlements */,
-				82E1F0212302434400ED6473 /* AppDelegate.swift */,
-				82E1F0232302434400ED6473 /* ViewController.swift */,
-				82E1F0252302434400ED6473 /* Main.storyboard */,
-				82E1F0282302434500ED6473 /* Assets.xcassets */,
-				82E1F02A2302434500ED6473 /* LaunchScreen.storyboard */,
-				82E1F02D2302434500ED6473 /* Info.plist */,
+				824A57D12305E0D7002C0440 /* kdkdkdd.entitlements */,
+				825A0DC3230587690019769E /* AppDelegate.swift */,
+				825A0DC5230587690019769E /* ViewController.swift */,
+				825A0DC7230587690019769E /* Main.storyboard */,
+				825A0DCA2305876B0019769E /* Assets.xcassets */,
+				825A0DCC2305876B0019769E /* LaunchScreen.storyboard */,
+				825A0DCF2305876B0019769E /* Info.plist */,
 			);
-			path = webhookSlacks;
+			path = kdkdkdd;
+			sourceTree = "<group>";
+		};
+		8D1C5A2DD90FD79BC7B0B5EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A24AF6A98E63F5C7E97176BD /* Pods-kdkdkdd.debug.xcconfig */,
+				85A130F9F274B2B5EB8EA555 /* Pods-kdkdkdd.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82E1F01D2302434300ED6473 /* webhookSlacks */ = {
+		825A0DBF230587690019769E /* kdkdkdd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82E1F0302302434500ED6473 /* Build configuration list for PBXNativeTarget "webhookSlacks" */;
+			buildConfigurationList = 825A0DD22305876B0019769E /* Build configuration list for PBXNativeTarget "kdkdkdd" */;
 			buildPhases = (
-				3D9BE0B5A53D2EDCAB3A1AEF /* [CP] Check Pods Manifest.lock */,
-				82E1F01A2302434300ED6473 /* Sources */,
-				82E1F01B2302434300ED6473 /* Frameworks */,
-				82E1F01C2302434300ED6473 /* Resources */,
-				BECF688A632B327567530984 /* [CP] Embed Pods Frameworks */,
+				C00323A0D3D97082DFFE5CE1 /* [CP] Check Pods Manifest.lock */,
+				825A0DBC230587690019769E /* Sources */,
+				825A0DBD230587690019769E /* Frameworks */,
+				825A0DBE230587690019769E /* Resources */,
+				636B9566380E77E8C98D75AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = webhookSlacks;
-			productName = webhookSlacks;
-			productReference = 82E1F01E2302434400ED6473 /* webhookSlacks.app */;
+			name = kdkdkdd;
+			productName = kdkdkdd;
+			productReference = 825A0DC0230587690019769E /* kdkdkdd.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		82E1F0162302434300ED6473 /* Project object */ = {
+		825A0DB8230587690019769E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Lanre Adelowo";
 				TargetAttributes = {
-					82E1F01D2302434300ED6473 = {
+					825A0DBF230587690019769E = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -133,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82E1F0192302434300ED6473 /* Build configuration list for PBXProject "webhookSlacks" */;
+			buildConfigurationList = 825A0DBB230587690019769E /* Build configuration list for PBXProject "kdkdkdd" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,31 +140,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 82E1F0152302434300ED6473;
-			productRefGroup = 82E1F01F2302434400ED6473 /* Products */;
+			mainGroup = 825A0DB7230587690019769E;
+			productRefGroup = 825A0DC1230587690019769E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82E1F01D2302434300ED6473 /* webhookSlacks */,
+				825A0DBF230587690019769E /* kdkdkdd */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		82E1F01C2302434300ED6473 /* Resources */ = {
+		825A0DBE230587690019769E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82E1F02C2302434500ED6473 /* LaunchScreen.storyboard in Resources */,
-				82E1F0292302434500ED6473 /* Assets.xcassets in Resources */,
-				82E1F0272302434400ED6473 /* Main.storyboard in Resources */,
+				825A0DCE2305876B0019769E /* LaunchScreen.storyboard in Resources */,
+				825A0DCB2305876B0019769E /* Assets.xcassets in Resources */,
+				825A0DC9230587690019769E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3D9BE0B5A53D2EDCAB3A1AEF /* [CP] Check Pods Manifest.lock */ = {
+		636B9566380E77E8C98D75AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kdkdkdd/Pods-kdkdkdd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kdkdkdd/Pods-kdkdkdd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kdkdkdd/Pods-kdkdkdd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00323A0D3D97082DFFE5CE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,57 +196,40 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-webhookSlacks-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-kdkdkdd-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BECF688A632B327567530984 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-webhookSlacks/Pods-webhookSlacks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-webhookSlacks/Pods-webhookSlacks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webhookSlacks/Pods-webhookSlacks-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		82E1F01A2302434300ED6473 /* Sources */ = {
+		825A0DBC230587690019769E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82E1F0242302434400ED6473 /* ViewController.swift in Sources */,
-				82E1F0222302434400ED6473 /* AppDelegate.swift in Sources */,
+				825A0DC6230587690019769E /* ViewController.swift in Sources */,
+				825A0DC4230587690019769E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		82E1F0252302434400ED6473 /* Main.storyboard */ = {
+		825A0DC7230587690019769E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				82E1F0262302434400ED6473 /* Base */,
+				825A0DC8230587690019769E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		82E1F02A2302434500ED6473 /* LaunchScreen.storyboard */ = {
+		825A0DCC2305876B0019769E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				82E1F02B2302434500ED6473 /* Base */,
+				825A0DCD2305876B0019769E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -238,7 +237,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		82E1F02E2302434500ED6473 /* Debug */ = {
+		825A0DD02305876B0019769E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		82E1F02F2302434500ED6473 /* Release */ = {
+		825A0DD12305876B0019769E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,15 +353,15 @@
 			};
 			name = Release;
 		};
-		82E1F0312302434500ED6473 /* Debug */ = {
+		825A0DD32305876B0019769E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8060676BC4D21B70B6CEEC70 /* Pods-webhookSlacks.debug.xcconfig */;
+			baseConfigurationReference = A24AF6A98E63F5C7E97176BD /* Pods-kdkdkdd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = webhookSlacks/webhookSlacks.entitlements;
+				CODE_SIGN_ENTITLEMENTS = kdkdkdd/kdkdkdd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VDK236TF5;
-				INFOPLIST_FILE = webhookSlacks/Info.plist;
+				INFOPLIST_FILE = kdkdkdd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,15 +373,15 @@
 			};
 			name = Debug;
 		};
-		82E1F0322302434500ED6473 /* Release */ = {
+		825A0DD42305876B0019769E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2133BE10A93E8D56499C2DDB /* Pods-webhookSlacks.release.xcconfig */;
+			baseConfigurationReference = 85A130F9F274B2B5EB8EA555 /* Pods-kdkdkdd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = webhookSlacks/webhookSlacks.entitlements;
+				CODE_SIGN_ENTITLEMENTS = kdkdkdd/kdkdkdd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VDK236TF5;
-				INFOPLIST_FILE = webhookSlacks/Info.plist;
+				INFOPLIST_FILE = kdkdkdd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,25 +396,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82E1F0192302434300ED6473 /* Build configuration list for PBXProject "webhookSlacks" */ = {
+		825A0DBB230587690019769E /* Build configuration list for PBXProject "kdkdkdd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82E1F02E2302434500ED6473 /* Debug */,
-				82E1F02F2302434500ED6473 /* Release */,
+				825A0DD02305876B0019769E /* Debug */,
+				825A0DD12305876B0019769E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82E1F0302302434500ED6473 /* Build configuration list for PBXNativeTarget "webhookSlacks" */ = {
+		825A0DD22305876B0019769E /* Build configuration list for PBXNativeTarget "kdkdkdd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82E1F0312302434500ED6473 /* Debug */,
-				82E1F0322302434500ED6473 /* Release */,
+				825A0DD32305876B0019769E /* Debug */,
+				825A0DD42305876B0019769E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 82E1F0162302434300ED6473 /* Project object */;
+	rootObject = 825A0DB8230587690019769E /* Project object */;
 }
