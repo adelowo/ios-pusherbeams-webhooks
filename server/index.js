@@ -43,7 +43,7 @@ app.post('/login', (req, res) => {
   res.send({
     status: true,
     message: 'You have been successfully authenticated',
-    token: beamsClient.generateToken(user.id),
+    token: beamsClient.generateToken(user.id).token,
     user_id: user.id,
   });
 });
