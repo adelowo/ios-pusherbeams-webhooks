@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		69E8D24680E715BC400CBB07 /* Pods_kdkdkdd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125B3A836521FA770748DEB0 /* Pods_kdkdkdd.framework */; };
+		824A57D32305ED81002C0440 /* UserScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824A57D22305ED81002C0440 /* UserScreen.storyboard */; };
+		824A57D52305F012002C0440 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824A57D42305F012002C0440 /* UserController.swift */; };
 		825A0DC4230587690019769E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A0DC3230587690019769E /* AppDelegate.swift */; };
 		825A0DC6230587690019769E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A0DC5230587690019769E /* ViewController.swift */; };
 		825A0DC9230587690019769E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825A0DC7230587690019769E /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		125B3A836521FA770748DEB0 /* Pods_kdkdkdd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kdkdkdd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		824A57D12305E0D7002C0440 /* kdkdkdd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kdkdkdd.entitlements; sourceTree = "<group>"; };
+		824A57D22305ED81002C0440 /* UserScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserScreen.storyboard; sourceTree = "<group>"; };
+		824A57D42305F012002C0440 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		825A0DC0230587690019769E /* kdkdkdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kdkdkdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		825A0DC3230587690019769E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		825A0DC5230587690019769E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 		825A0DC2230587690019769E /* kdkdkdd */ = {
 			isa = PBXGroup;
 			children = (
+				824A57D22305ED81002C0440 /* UserScreen.storyboard */,
 				824A57D12305E0D7002C0440 /* kdkdkdd.entitlements */,
 				825A0DC3230587690019769E /* AppDelegate.swift */,
 				825A0DC5230587690019769E /* ViewController.swift */,
@@ -77,6 +82,7 @@
 				825A0DCA2305876B0019769E /* Assets.xcassets */,
 				825A0DCC2305876B0019769E /* LaunchScreen.storyboard */,
 				825A0DCF2305876B0019769E /* Info.plist */,
+				824A57D42305F012002C0440 /* UserController.swift */,
 			);
 			path = kdkdkdd;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 				825A0DCE2305876B0019769E /* LaunchScreen.storyboard in Resources */,
 				825A0DCB2305876B0019769E /* Assets.xcassets in Resources */,
 				825A0DC9230587690019769E /* Main.storyboard in Resources */,
+				824A57D32305ED81002C0440 /* UserScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824A57D52305F012002C0440 /* UserController.swift in Sources */,
 				825A0DC6230587690019769E /* ViewController.swift in Sources */,
 				825A0DC4230587690019769E /* AppDelegate.swift in Sources */,
 			);

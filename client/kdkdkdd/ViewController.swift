@@ -15,6 +15,9 @@ class ViewController: UIViewController {
 
     @IBOutlet var _username: UITextField!
     
+    // The user ID retrieved from the server
+    var userID : String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,13 +37,15 @@ class ViewController: UIViewController {
             return
         }
         
-        Alamofire.request("https://45651f24.ngrok.io/login", method: .post, parameters: ["username" : username.lowercased()])
+        Alamofire.request("https://5024e6e1.ngrok.io/login", method: .post, parameters: ["username" : username.lowercased()])
         .validate()
         .responseJSON { response in
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
+                self.userID = json["user_id"].stringValue
                 
+                self.performSegue(withIdentifier: "UserScreen", sender: self)
                 
          
             case .failure(let error):
@@ -52,6 +57,14 @@ class ViewController: UIViewController {
                 self.present(alert, animated: true)
                 print(error)
             }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender : Any?) {
+        if segue.destination is UserController {
+            let vc = segue.destination as? UserController
+            vc?.username = _username.text!
+            vc?.userID = userID
         }
     }
 }
